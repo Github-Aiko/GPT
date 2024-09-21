@@ -18,42 +18,42 @@ Certainly! You can use `curl` or `wget` to download the Docker Compose file dire
 ###  [BetterChatGPT](https://github.com/ztjhz/BetterChatGPT)
 
 ```sh
-curl -L -o docker-compose.yaml https://raw.githubusercontent.com/Github-Aiko/GPT/main/docker-compose/bettergpt/docker-compose.yaml
+curl -L -o docker-compose.yaml https://raw.githubusercontent.com/Github-Aiko/GPT/master/docker-compose/bettergpt/docker-compose.yaml
 docker-compose -f docker-compose.yaml up -d
 ```
 
 Or if you're using `wget`:
 
 ```sh
-wget https://raw.githubusercontent.com/Github-Aiko/GPT/main/docker-compose/bettergpt/docker-compose.yaml -O docker-compose.yaml
+wget https://raw.githubusercontent.com/Github-Aiko/GPT/master/docker-compose/bettergpt/docker-compose.yaml -O docker-compose.yaml
 docker-compose -f docker-compose.yaml up -d
 ```
 
 ### [ChatGPT Next Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)
 
 ```sh
-curl -L -o docker-compose.yaml https://raw.githubusercontent.com/Github-Aiko/GPT/main/docker-compose/chatgpt-next-web/docker-compose.yaml
+curl -L -o docker-compose.yaml https://raw.githubusercontent.com/Github-Aiko/GPT/master/docker-compose/chatgpt-next-web/docker-compose.yaml
 docker-compose -f docker-compose.yaml up -d
 ```
 
 Or with `wget`:
 
 ```sh
-wget https://raw.githubusercontent.com/Github-Aiko/GPT/main/docker-compose/chatgpt-next-web/docker-compose.yaml -O docker-compose.yaml
+wget https://raw.githubusercontent.com/Github-Aiko/GPT/master/docker-compose/chatgpt-next-web/docker-compose.yaml -O docker-compose.yaml
 docker-compose -f docker-compose.yaml up -d
 ```
 
 ### [Lobe Chat](https://github.com/lobehub/lobe-chat)
 
 ```sh
-curl -L -o docker-compose.yaml https://raw.githubusercontent.com/Github-Aiko/GPT/main/docker-compose/lobe-chat/docker-compose.yaml
+curl -L -o docker-compose.yaml https://raw.githubusercontent.com/Github-Aiko/GPT/master/docker-compose/lobe-chat/docker-compose.yaml
 docker-compose -f docker-compose.yaml up -d
 ```
 
 Or using `wget`:
 
 ```sh
-wget https://raw.githubusercontent.com/Github-Aiko/GPT/main/docker-compose/lobe-chat/docker-compose.yaml -O docker-compose.yaml
+wget https://raw.githubusercontent.com/Github-Aiko/GPT/master/docker-compose/lobe-chat/docker-compose.yaml -O docker-compose.yaml
 docker-compose -f docker-compose.yaml up -d
 ```
 
