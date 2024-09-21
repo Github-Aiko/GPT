@@ -33,7 +33,7 @@ Welcome to the ChatGPT API Free Reverse Proxy, offering free self-hosted API acc
 1. Ensure Docker is installed by referring to the [Docker Installation Docs](https://docs.docker.com/engine/install/).
 2. Run the following command:
    ```bash
-   docker run -dp 3040:3040 pawanosman/chatgpt:latest
+   docker run -dp 3040:3040 aikocute/aikoai:latest
    ```
 3. Done! You can now connect to your local server's API at:
    ```
@@ -53,7 +53,7 @@ Note: This option is not available to all countries yet. if you are from a count
 1. Ensure NodeJs (v19+) is installed: [Download NodeJs](https://nodejs.org/en/download)
 2. Clone this repository:
    ```bash
-   git clone https://github.com/PawanOsman/ChatGPT.git
+   git clone https://github.com/Github-Aiko/GPT.git
    ```
 3. Open `start.bat` (Windows) or `start.sh` (Linux with `bash start.sh` command) to install dependencies and launch the server.
 4. Done, you can connect to your local server's API at:
@@ -83,7 +83,7 @@ To install and run the ChatGPT API Reverse Proxy on Android using Termux, follow
    ```
 5. Clone the repository:
    ```bash
-   git clone https://github.com/PawanOsman/ChatGPT.git
+   git clone https://github.com/Github-Aiko/GPT.git
    ```
 6. Navigate to the cloned directory:
    ```bash
