@@ -3,7 +3,7 @@ version: '3.8' # Specify Docker Compose file version
 services:
   # Define the service for the web interface of ChatGPT
   bettergpt:
-    image: pawanosman/bettergpt:latest # Use the specified Docker image for the web interface
+    image: aikocute/bettergpt:latest # Use the specified Docker image for the web interface
     ports:
       - "5173:5173" # Map port 5173 on the host to port 5173 in the container
     environment: # Set environment variables for the container
@@ -15,7 +15,7 @@ services:
 
   # Define the backend service for ChatGPT
   chatgpt:
-    image: Github-Aiko/GPT:latest # Use the specified Docker image for the backend
+    image: aikocute/aikoai:latest # Use the specified Docker image for the backend
     restart: always # Ensure the container restarts automatically if it stops
     ports:
       - "3040:3040" # Map port 3040 on the host to port 3040 in the container
