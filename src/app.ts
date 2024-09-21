@@ -575,6 +575,7 @@ app.listen(port, async () => {
     publicURL = await StartCloudflaredTunnel(filePath);
   }
 
+  console.log(`Version: ${process.env.npm_package_version}`);
   console.log(`💡 Server is running at http://localhost:${port}`);
   console.log();
   console.log(`🔗 Local Base URL: http://localhost:${port}/v1`);
