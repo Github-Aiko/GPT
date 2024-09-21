@@ -575,12 +575,14 @@ app.listen(port, async () => {
     publicURL = await StartCloudflaredTunnel(filePath);
   }
 
+  // get ip address get ip 
+
   console.log(`Version: ${process.env.npm_package_version}`);
-  console.log(`💡 Server is running at http://localhost:${port}`);
+  console.log(`💡 Server is running at http://${address}:${port}`);
   console.log();
-  console.log(`🔗 Local Base URL: http://localhost:${port}/v1`);
+  console.log(`🔗 Local Base URL: http://${address}:${port}/v1`);
   console.log(
-    `🔗 Local Endpoint: http://localhost:${port}/v1/chat/completions`
+    `🔗 Local Endpoint: http://${address}:${port}/v1/chat/completions`
   );
   console.log();
   if (cloudflared && publicURL)
